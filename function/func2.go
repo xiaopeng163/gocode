@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 func main(){
-    fmt.Print(Test(1, 2, 3, 4))
+    fmt.Println(Test(1, 2, 3, 4))
+    fmt.Println(Test(1, 2, 3, 4, 5))
 }
 
 func Test(a ...int) int{
