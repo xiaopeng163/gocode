@@ -10,6 +10,6 @@ func main() {
 	test()
 }
 
-func test(){
+func test() {
 	fmt.Printf("a is %d\n", a)
 }

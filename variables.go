@@ -8,9 +8,9 @@ var flag bool = false
 
 // b := 2
 
-func main(){
-    b := 2
-    fmt.Printf("a is %d", a)
-    fmt.Printf("b is %d", b)
-    fmt.Print(flag)
+func main() {
+	b := 2
+	fmt.Printf("a is %d", a)
+	fmt.Printf("b is %d", b)
+	fmt.Print(flag)
 }
